@@ -1,6 +1,6 @@
-macro_cmd+tilde: macro_cmd+tilde{
+macro_cmd_tilde: macro_cmd_tilde{
 compatible = "zmk,behavior-macro";
-label = "macro_cmd+tilde";
+label = "macro_cmd_tilde";
 #binding-cells = <0>;
 bindings = <&kp LEFT_COMMAND>, <&kp GRAVE>;
 };
