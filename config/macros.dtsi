@@ -2,7 +2,7 @@ macro_arrow: macro_arrow{
 compatible = "zmk,behavior-macro";
 label = "macro_arrow";
 #binding-cells = <0>;
-bindings = <&kp EQUAL>, <&kp GREATER_THAN>;
+bindings = <&kp SPACE>, <&kp EQUAL>, <&kp GREATER_THAN>, <&kp SPACE>;
 };
 macro_cmd_tilde: macro_cmd_tilde{
 compatible = "zmk,behavior-macro";
