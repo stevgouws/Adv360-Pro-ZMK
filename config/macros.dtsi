@@ -50,23 +50,23 @@ macro_hyper: macro_hyper{
 compatible = "zmk,behavior-macro";
 label = "macro_hyper";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
+bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_pause_for_release>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
 };
 macro_meh: macro_meh{
 compatible = "zmk,behavior-macro";
 label = "macro_meh";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
+bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD &kp c>;
+bindings = <&macro_press &kp LCMD> , <&macro_tap &kp C> , <&macro_release &kp LCMD>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD &kp v>;
+bindings = <&macro_press &kp LCMD> , <&macro_tap &kp V> , <&macro_release &kp LCMD>;
 };
