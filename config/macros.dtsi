@@ -46,18 +46,6 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
-macro_hyper: macro_hyper{
-compatible = "zmk,behavior-macro";
-label = "macro_hyper";
-#binding-cells = <0>;
-bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
-};
-macro_meh: macro_meh{
-compatible = "zmk,behavior-macro";
-label = "macro_meh";
-#binding-cells = <0>;
-bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
-};
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
@@ -81,4 +69,16 @@ compatible = "zmk,behavior-macro";
 label = "macro_redo";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LCMD &kp LSHFT>, <&macro_tap &kp V>, <&macro_release &kp LCMD &kp LSHFT>;
+};
+macro_hyper: macro_hyper{
+compatible = "zmk,behavior-macro";
+label = "macro_hyper";
+#binding-cells = <0>;
+bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_pause_for_release>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
+};
+macro_meh: macro_meh{
+compatible = "zmk,behavior-macro";
+label = "macro_meh";
+#binding-cells = <0>;
+bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
 };
