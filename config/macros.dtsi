@@ -64,9 +64,21 @@ label = "macro_copy";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LCMD> , <&macro_tap &kp C> , <&macro_release &kp LCMD>;
 };
-macro_paste: macro_paste{
+macro_redo: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LCMD> , <&macro_tap &kp V> , <&macro_release &kp LCMD>;
+};
+macro_undo: macro_undo{
+compatible = "zmk,behavior-macro";
+label = "macro_undo";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LCMD> , <&macro_tap &kp Z> , <&macro_release &kp LCMD>;
+};
+macro_redo: macro_redo{
+compatible = "zmk,behavior-macro";
+label = "macro_redo";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LCMD &kp LSHFT> , <&macro_tap &kp V> , <&macro_release &kp LCMD &kp LSHFT>;
 };
