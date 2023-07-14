@@ -64,18 +64,6 @@ label = "macro_redo";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LSHFT>, <&macro_press &kp LCMD>, <&macro_tap &kp Z>, <&macro_release &kp LSHFT>, <&macro_release &kp LCMD>;
 };
-macro_hyper: macro_hyper{
-compatible = "zmk,behavior-macro";
-label = "macro_hyper";
-#binding-cells = <0>;
-bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
-};
-macro_meh: macro_meh{
-compatible = "zmk,behavior-macro";
-label = "macro_meh";
-#binding-cells = <0>;
-bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
-};
 macro_cmd_tilde: macro_cmd_tilde{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd_tilde";
@@ -87,4 +75,16 @@ compatible = "zmk,behavior-macro";
 label = "macro_arrow";
 #binding-cells = <0>;
 bindings = <&kp SPACE>, <&kp EQUAL>, <&kp GREATER_THAN>, <&kp SPACE>;
+};
+macro_hyper: macro_hyper{
+compatible = "zmk,behavior-macro";
+label = "macro_hyper";
+#binding-cells = <0>;
+bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_pause_for_release>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
+};
+macro_meh: macro_meh{
+compatible = "zmk,behavior-macro";
+label = "macro_meh";
+#binding-cells = <0>;
+bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
 };
