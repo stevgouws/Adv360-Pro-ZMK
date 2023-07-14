@@ -6,7 +6,7 @@
     "base",
     "keypad",
     "mod",
-    "SYMBOL"
+    "Symbol"
   ],
   "layers": [
     [
@@ -28,11 +28,11 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
     ], [
-       "&kp TILDE", "&kp F1", "&kp F2",               "&kp F3",                "&kp F4",    "&kp F5",            "&trans",                                                             "&trans",         "&kp F6",         "&kp F7",       "&kp F8",          "&kp F9", "&kp F10", "&kp F11",
-          "&trans", "&trans", "&trans",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&kp MINUS",            "&trans",                                                             "&trans",         "&trans",         "&trans",       "&trans",          "&trans",  "&trans",  "&trans",
-          "&trans", "&trans", "&trans", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp EQUAL",            "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW",  "&trans",  "&trans",
-          "&trans", "&trans", "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",  "&kp PLUS",                                "&trans",                     "&trans",                             "&trans",         "&trans",       "&trans",          "&trans",  "&trans",  "&trans",
-          "&trans", "&trans", "&trans",               "&trans",                 "&none",                        "&kp DEL", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans",       "&trans",          "&trans",  "&trans",  "&trans"
+       "&kp TILDE",    "&kp F1", "&kp F2",               "&kp F3",                "&kp F4",    "&kp F5",            "&trans",                                                             "&trans",         "&kp F6",         "&kp F7",       "&kp F8",          "&kp F9", "&kp F10", "&kp F11",
+          "&trans",    "&trans", "&trans",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&kp MINUS",            "&trans",                                                             "&trans",         "&trans",         "&trans",       "&trans",          "&trans",  "&trans",  "&trans",
+          "&trans", "&kp GRAVE", "&trans", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp EQUAL",            "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW",  "&trans",  "&trans",
+          "&trans",    "&trans", "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",  "&kp PLUS",                                "&trans",                     "&trans",                             "&trans",         "&trans",       "&trans",          "&trans",  "&trans",  "&trans",
+          "&trans",    "&trans", "&trans",               "&trans",                 "&none",                        "&kp DEL", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans",       "&trans",          "&trans",  "&trans",  "&trans"
     ]
   ]
 }
