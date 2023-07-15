@@ -32,7 +32,7 @@
           "&trans",    "&trans", "&trans",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&kp MINUS",            "&trans",                                                             "&trans",         "&trans",         "&trans",       "&trans",          "&trans",  "&trans",  "&trans",
           "&trans", "&kp GRAVE", "&trans", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp EQUAL",            "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW",  "&trans",  "&trans",
           "&trans",    "&trans", "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",  "&kp PLUS",                                "&trans",                     "&trans",                             "&trans",         "&trans",       "&trans",          "&trans",  "&trans",  "&trans",
-          "&trans",    "&trans", "&trans",               "&trans",                 "&none",                        "&kp DEL", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans",       "&trans",          "&trans",  "&trans",  "&trans"
+          "&trans",    "&trans", "&trans",               "&trans",          "&macro_arrow",                        "&kp DEL", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans",       "&trans",          "&trans",  "&trans",  "&trans"
     ]
   ]
 }
