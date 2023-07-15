@@ -86,11 +86,11 @@ macro_meh: macro_meh{
 compatible = "zmk,behavior-macro";
 label = "macro_meh";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
+bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
 };
 macro_meh: macro_meh{
 compatible = "zmk,behavior-macro";
 label = "macro_meh";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
+bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
 };
