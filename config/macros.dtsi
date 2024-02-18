@@ -32,7 +32,7 @@ macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD>, <&macro_tap &kp X>, <&macro_release &kp LCMD>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp X>, <&macro_release &kp LCTRL>;
 };
 macro_shift_tab: macro_shift_tab{
 compatible = "zmk,behavior-macro";
@@ -44,25 +44,25 @@ macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD>, <&macro_tap &kp C>, <&macro_release &kp LCMD>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp C>, <&macro_release &kp LCTRL>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD>, <&macro_tap &kp V>, <&macro_release &kp LCMD>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp V>, <&macro_release &kp LCTRL>;
 };
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_undo";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCMD>, <&macro_tap &kp Z>, <&macro_release &kp LCMD>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp Z>, <&macro_release &kp LCTRL>;
 };
 macro_redo: macro_redo{
 compatible = "zmk,behavior-macro";
 label = "macro_redo";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LSHFT>, <&macro_press &kp LCMD>, <&macro_tap &kp Z>, <&macro_release &kp LSHFT>, <&macro_release &kp LCMD>;
+bindings = <&macro_press &kp LSHFT>, <&macro_press &kp LCTRL>, <&macro_tap &kp Z>, <&macro_release &kp LSHFT>, <&macro_release &kp LCTRL>;
 };
 macro_cmd_tilde: macro_cmd_tilde{
 compatible = "zmk,behavior-macro";
@@ -86,11 +86,11 @@ macro_hyper: macro_hyper{
 compatible = "zmk,behavior-macro";
 label = "macro_hyper";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
+bindings = <&macro_press &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>, <&macro_pause_for_release>, <&macro_release &mo 4 &kp LSHFT &kp LALT &kp LCTRL &kp LCMD>;
 };
 macro_meh: macro_meh{
 compatible = "zmk,behavior-macro";
 label = "macro_meh";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
+bindings = <&macro_press &mo 5 &kp LSHFT &kp LALT &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 5 &kp LSHFT &kp LALT &kp LCTRL>;
 };
