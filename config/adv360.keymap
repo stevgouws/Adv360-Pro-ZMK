@@ -38,14 +38,6 @@
             bindings = <&kp SPACE &kp EQUAL &kp GREATER_THAN &kp SPACE>;
             label = "ARROW2";
         };
-
-        hyper: hyper {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp>;
-
-            label = "HYPER";
-        };
     };
 
     keymap {
