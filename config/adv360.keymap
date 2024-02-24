@@ -69,6 +69,11 @@
             key-positions = <18 17>;
             timeout-ms = <25>;
         };
+
+        Left_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <32 31>;
+        };
     };
 
     keymap {
