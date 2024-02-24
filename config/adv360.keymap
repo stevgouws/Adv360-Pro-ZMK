@@ -60,7 +60,12 @@
         Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <18 17>;
-            layers = <0 1>;
+            timeout-ms = <25>;
+        };
+
+        Caps_Word {
+            bindings = <&caps_word>;
+            key-positions = <46 28>;
         };
     };
 
