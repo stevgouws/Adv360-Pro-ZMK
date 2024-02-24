@@ -17,16 +17,19 @@
 
 / {
     behaviors {
-      #include "macros.dtsi"
+        #include "macros.dtsi"
       #include "version.dtsi"
       #ifndef VERSION_MACRO
-      macro_ver: macro_ver {
-        compatible = "zmk,behavior-macro";
-        label = "macro_version";
-        #binding-cells = <0>;
-        bindings = <&kp RET>;
-      };
-      #endif
+
+        macro_ver: macro_ver {
+            compatible = "zmk,behavior-macro";
+            label = "macro_version";
+            #binding-cells = <0>;
+            bindings = <&kp RET>;
+        };
+
+        #endif
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -75,11 +78,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <18 17>;
             timeout-ms = <25>;
-        };
-
-        Left_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <32 31>;
         };
     };
 
