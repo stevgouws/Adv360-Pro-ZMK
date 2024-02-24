@@ -38,13 +38,6 @@
             bindings = <&kp SPACE &kp EQUAL &kp GREATER_THAN &kp SPACE>;
             label = "ARROW2";
         };
-
-        left_click: left_click {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "LEFT_CLICK";
-        };
     };
 
     combos {
