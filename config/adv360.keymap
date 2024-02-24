@@ -43,18 +43,6 @@
     combos {
         compatible = "zmk,combos";
 
-        Left_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <32 31>;
-            layers = <0 1>;
-        };
-
-        Right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <32 33>;
-            layers = <0 2>;
-        };
-
         Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <18 17>;
