@@ -32,15 +32,11 @@
     };
 
     macros {
-        copy2: copy2 {
+        arrow: arrow2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp C>,
-                <&macro_release>;
-
-            label = "COPY2";
+            bindings = <&kp SPACE &kp EQUAL &kp GREATER_THAN &kp SPACE>;
+            label = "ARROW2";
         };
     };
 
@@ -83,7 +79,7 @@
 &trans     &trans     &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &trans                                       &trans  &trans          &trans          &trans        &trans           &trans   &trans
 &trans     &kp GRAVE  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans   &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
 &trans     &trans     &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                    &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
-&trans     &trans     &trans  &trans                &macro_arrow                      &kp DEL  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
+&trans     &trans     &trans  &trans                &arrow                            &kp DEL  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
             >;
         };
     };
