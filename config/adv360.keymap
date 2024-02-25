@@ -94,6 +94,11 @@
             bindings = <&kp LS(LC(F10))>;
             key-positions = <30 31 32>;
         };
+
+        meh+f9 {
+            bindings = <&kp LS(LC(F10))>;
+            key-positions = <30 31>;
+        };
     };
 
     keymap {
