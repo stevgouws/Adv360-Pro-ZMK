@@ -91,7 +91,7 @@
         };
 
         meh+f10 {
-            bindings = <&kp LS(LC(F13))>;
+            bindings = <&kp LS(LC(F10))>;
             key-positions = <30 31 32>;
         };
     };
