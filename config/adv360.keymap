@@ -80,19 +80,19 @@
             timeout-ms = <25>;
         };
 
-        ctrl+shift+f11 {
-            bindings = <&kp LS(LC(F11))>;
+        meh+f11 {
+            bindings = <&kp LS(LC(LA(F11)))>;
             key-positions = <32 31>;
         };
 
-        ctrl+shift+f12 {
-            bindings = <&kp LS(LC(F12))>;
+        meh+f12 {
+            bindings = <&kp LS(LC(LA(F12)))>;
             key-positions = <32 33>;
         };
 
-        ctrl+shift+f13 {
+        meh+f10 {
             bindings = <&kp LS(LC(F13))>;
-            key-positions = <30 31>;
+            key-positions = <30 31 32>;
         };
     };
 
