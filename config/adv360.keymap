@@ -91,12 +91,12 @@
         };
 
         meh+f10 {
-            bindings = <&kp LS(LC(F10))>;
+            bindings = <&kp LS(LC(LA(F10)))>;
             key-positions = <30 31 32>;
         };
 
         meh+f9 {
-            bindings = <&kp LS(LC(F9))>;
+            bindings = <&kp LS(LC(LA(F9)))>;
             key-positions = <30 31>;
         };
     };
@@ -116,11 +116,11 @@
 
         windows {
             bindings = <
-&trans            &trans  &trans     &trans     &trans     &trans  &trans                                                    &trans  &trans  &trans     &trans         &trans  &trans  &trans
-&trans            &trans  &trans     &trans     &trans     &trans  &trans                                                    &trans  &trans  &trans     &trans         &trans  &trans  &trans
-&trans            &trans  &trans     &trans     &trans     &trans  &trans  &kp LCTRL  &trans      &kp RIGHT_CONTROL  &trans  &trans  &trans  &trans     &trans         &trans  &trans  &trans
-&trans            &trans  &trans     &trans     &trans     &trans                     &trans      &trans                             &trans  &trans     &trans         &trans  &trans  &trans
-&kp LEFT_COMMAND  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)          &trans  &trans     &trans      &trans             &trans  &trans          &kp LC(Z)  &kp LS(LC(Z))  &trans  &trans  &trans
+&trans            &trans  &trans     &trans     &trans     &trans  &trans                                                                 &trans  &trans  &trans     &trans         &trans  &trans  &trans
+&trans            &trans  &trans     &trans     &trans     &trans  &trans                                                                 &trans  &trans  &trans     &trans         &trans  &trans  &trans
+&trans            &trans  &trans     &trans     &trans     &trans  &trans  &kp LCTRL  &mt LEFT_ALT ESCAPE      &kp RIGHT_CONTROL  &trans  &trans  &trans  &trans     &trans         &trans  &trans  &trans
+&trans            &trans  &trans     &trans     &trans     &trans                     &trans                   &trans                             &trans  &trans     &trans         &trans  &trans  &trans
+&kp LEFT_COMMAND  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)          &trans  &trans     &trans                   &trans             &trans  &trans          &kp LC(Z)  &kp LS(LC(Z))  &trans  &trans  &trans
             >;
         };
 
