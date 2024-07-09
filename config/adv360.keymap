@@ -111,11 +111,11 @@
 
         default_layer {
             bindings = <
-&kp ESC                       &kp N1    &kp N2     &kp N3     &kp N4     &kp N5  &tog 2                                                                       &mo 3      &kp N6  &kp N7     &kp N8         &kp N9    &kp N0    &kp MINUS
-&kp TAB                       &kp Q     &kp W      &kp E      &kp R      &kp T   &kp TAB                                                                      &tog 1     &kp Y   &kp U      &kp I          &kp O     &kp P     &kp BSLH
-&kp LS(LA(LC(LEFT_COMMAND)))  &kp A     &kp S      &kp D      &kp F      &kp G   &kp LG(GRAVE)  &kp LCMD                  &kp LALT      &kp LCMD   &mo 4      &none      &kp H   &kp J      &kp K          &kp L     &kp SEMI  &kp SQT
-&tap_dance_shift_caps_word    &kp Z     &kp X      &kp C      &kp V      &kp B                                            &kp HOME      &kp PG_UP                        &kp N   &kp M      &kp COMMA      &kp DOT   &kp FSLH  &kp RSHFT
-&kp LEFT_CONTROL              &kp CAPS  &kp LG(X)  &kp LG(C)  &kp LG(V)          &kp BSPC       &kp LS(LA(LEFT_CONTROL))  &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp LG(Z)  &kp LG(LS(Z))  &kp LBKT  &kp RBKT  &mo 3
+&kp ESC                       &kp N1    &kp N2     &kp N3     &kp N4     &kp N5  &tog 2                                                                                    &mo 3      &kp N6  &kp N7     &kp N8         &kp N9    &kp N0    &kp MINUS
+&kp TAB                       &kp Q     &kp W      &kp E      &kp R      &kp T   &kp TAB                                                                                   &tog 1     &kp Y   &kp U      &kp I          &kp O     &kp P     &kp BSLH
+&kp LS(LA(LC(LEFT_COMMAND)))  &kp A     &kp S      &kp D      &kp F      &kp G   &kp LG(GRAVE)  &kp LCMD                  &kp LALT                   &kp LCMD   &mo 4      &none      &kp H   &kp J      &kp K          &kp L     &kp SEMI  &kp SQT
+&tap_dance_shift_caps_word    &kp Z     &kp X      &kp C      &kp V      &kp B                                            &hm LS(LEFT_ALT) HOME      &kp PG_UP                        &kp N   &kp M      &kp COMMA      &kp DOT   &kp FSLH  &kp RSHFT
+&kp LEFT_CONTROL              &kp CAPS  &kp LG(X)  &kp LG(C)  &kp LG(V)          &kp BSPC       &kp LS(LA(LEFT_CONTROL))  &kp END                    &kp PG_DN  &kp ENTER  &kp SPACE          &kp LG(Z)  &kp LG(LS(Z))  &kp LBKT  &kp RBKT  &mo 3
             >;
         };
 
