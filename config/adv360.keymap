@@ -151,11 +151,11 @@
 
         layer_Symbol {
             bindings = <
-&kp TILDE  &kp F1     &kp F2  &kp F3                &kp F4                 &kp F5     &trans                                       &trans  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
-&trans     &trans     &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &trans                                       &trans  &trans          &trans          &trans        &trans           &trans   &trans
-&trans     &kp GRAVE  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans   &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans     &trans     &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                    &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
-&trans     &trans     &trans  &trans                &arrow                            &kp DEL  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
+&kp TILDE  &kp F1     &kp F2  &kp F3                &kp F4                 &kp F5     &trans                                       &trans  &kp F6          &kp F7          &kp F8                &kp F9                &kp F10  &kp F11
+&trans     &trans     &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &trans                                       &trans  &trans          &kp K_MUTE      &kp C_VOL_DN          &kp C_VOL_UP          &trans   &trans
+&trans     &kp GRAVE  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans   &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW       &trans   &trans
+&trans     &trans     &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                    &trans      &trans                  &trans          &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans   &trans
+&trans     &trans     &trans  &trans                &arrow                            &kp DEL  &trans  &trans      &trans  &trans  &trans                  &trans          &trans                &trans                &trans   &trans
             >;
         };
     };
