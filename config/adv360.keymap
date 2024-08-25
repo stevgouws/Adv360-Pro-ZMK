@@ -79,7 +79,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <18 17>;
             timeout-ms = <15>;
-            layers = <0 2>;
+            layers = <0 2 6 5 1>;
         };
 
         meh+f11 {
