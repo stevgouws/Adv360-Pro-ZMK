@@ -83,27 +83,31 @@
         };
 
         meh+f11 {
-            bindings = <&kp LS(LC(LA(F11)))>;
+            bindings = <&mkp MB1>;
             key-positions = <32 31>;
             layers = <0 2>;
+            timeout-ms = <15>;
         };
 
         meh+f12 {
             bindings = <&kp LS(LC(LA(F12)))>;
             key-positions = <32 33>;
             layers = <0 2>;
+            timeout-ms = <15>;
         };
 
         meh+f10 {
             bindings = <&kp LS(LC(LA(F10)))>;
             key-positions = <30 31 32>;
             layers = <0 2>;
+            timeout-ms = <15>;
         };
 
         meh+f9 {
-            bindings = <&kp LS(LC(LA(F9)))>;
+            bindings = <&mkp MB2>;
             key-positions = <30 31>;
             layers = <0 2>;
+            timeout-ms = <15>;
         };
     };
 
