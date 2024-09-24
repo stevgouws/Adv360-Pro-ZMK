@@ -75,35 +75,21 @@
     combos {
         compatible = "zmk,combos";
 
-        Escape {
+        ER {
             bindings = <&kp ESCAPE>;
             key-positions = <18 17>;
             timeout-ms = <15>;
             layers = <0 2 6 5 1>;
         };
 
-        meh+f11 {
+        DF {
             bindings = <&mkp MB1>;
             key-positions = <32 31>;
             layers = <0 2>;
             timeout-ms = <15>;
         };
 
-        meh+f12 {
-            bindings = <&kp LS(LC(LA(F12)))>;
-            key-positions = <32 33>;
-            layers = <0 2>;
-            timeout-ms = <15>;
-        };
-
-        meh+f10 {
-            bindings = <&kp LS(LC(LA(F10)))>;
-            key-positions = <30 31 32>;
-            layers = <0 2>;
-            timeout-ms = <15>;
-        };
-
-        meh+f9 {
+        SD {
             bindings = <&mkp MB2>;
             key-positions = <30 31>;
             layers = <0 2>;
