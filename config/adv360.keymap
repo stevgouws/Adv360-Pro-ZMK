@@ -78,7 +78,7 @@
         ER {
             bindings = <&kp ESCAPE>;
             key-positions = <18 17>;
-            timeout-ms = <15>;
+            timeout-ms = <20>;
             layers = <0 2 6 5 1>;
         };
 
@@ -86,14 +86,14 @@
             bindings = <&mkp MB1>;
             key-positions = <32 31>;
             layers = <0 2>;
-            timeout-ms = <15>;
+            timeout-ms = <20>;
         };
 
         SD {
             bindings = <&mkp MB2>;
             key-positions = <30 31>;
             layers = <0 2>;
-            timeout-ms = <15>;
+            timeout-ms = <20>;
         };
     };
 
