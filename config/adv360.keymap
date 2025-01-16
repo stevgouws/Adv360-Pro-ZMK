@@ -14,6 +14,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
@@ -51,6 +52,19 @@
             label = "TAP_DANCE_SHIFT_CAPS_WORD";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&caps_word>;
+        };
+
+        urob: urob {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UROB";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <185>;
+            flavor = "balanced";
+            hold-trigger-on-release;
         };
     };
 
@@ -107,11 +121,11 @@
 
         default_layer {
             bindings = <
-&kp CAPSLOCK                &kp N1    &kp N2     &kp N3     &kp N4     &kp N5  &tog 2                                                                                                                        &mo 3      &kp N6  &kp N7     &kp N8         &kp N9    &kp N0    &kp MINUS
-&none                       &kp Q     &kp W      &kp E      &kp R      &kp T   &kp TAB                                                                                                                       &tog 1     &kp Y   &kp U      &kp I          &kp O     &kp P     &kp BSLH
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp A     &kp S      &kp D      &kp F      &kp G   &kp LG(GRAVE)  &kp LCMD                  &kp LALT                   &kp RIGHT_COMMAND           &mo 4                         &none      &kp H   &kp J      &kp K          &kp L     &kp SEMI  &hm LA(LC(LG(LEFT_SHIFT))) SQT
-&mt LEFT_SHIFT TAB          &lt 0 Z   &kp X      &kp C      &kp V      &kp B                                            &hm LS(LEFT_ALT) HOME      &hm LA(LEFT_SHIFT) PAGE_UP                                           &kp N   &kp M      &kp COMMA      &kp DOT   &kp FSLH  &mt RSHFT TAB
-&kp LEFT_CONTROL            &kp CAPS  &kp LG(X)  &kp LG(C)  &kp LG(V)          &kp BSPC       &kp LS(LA(LEFT_CONTROL))  &kp END                    &kp PG_DN                   &hm LA(LC(LEFT_SHIFT)) ENTER  &kp SPACE          &kp LG(Z)  &kp LG(LS(Z))  &kp LBKT  &kp RBKT  &kp RIGHT_CONTROL
+&kp CAPSLOCK                &kp N1    &kp N2     &kp N3     &kp N4     &kp N5  &tog 2                                                                                                         &mo 3      &kp N6  &kp N7     &kp N8         &kp N9    &kp N0    &kp MINUS
+&none                       &kp Q     &kp W      &kp E      &kp R      &kp T   &kp TAB                                                                                                        &tog 1     &kp Y   &kp U      &kp I          &kp O     &kp P     &kp BSLH
+&kp LA(LC(LG(LEFT_SHIFT)))  &kp A     &kp S      &kp D      &kp F      &kp G   &kp LG(GRAVE)  &kp LCMD                  &kp LALT                   &kp RIGHT_COMMAND           &mo 4          &none      &kp H   &kp J      &kp K          &kp L     &kp SEMI  &hm LA(LC(LG(LEFT_SHIFT))) SQT
+&mt LEFT_SHIFT TAB          &lt 0 Z   &kp X      &kp C      &kp V      &kp B                                            &hm LS(LEFT_ALT) HOME      &hm LA(LEFT_SHIFT) PAGE_UP                            &kp N   &kp M      &kp COMMA      &kp DOT   &kp FSLH  &mt RSHFT TAB
+&kp LEFT_CONTROL            &kp CAPS  &kp LG(X)  &kp LG(C)  &kp LG(V)          &kp BSPC       &kp LS(LA(LEFT_CONTROL))  &kp END                    &kp PG_DN                   &urob 4 ENTER  &kp SPACE          &kp LG(Z)  &kp LG(LS(Z))  &kp LBKT  &kp RBKT  &kp RIGHT_CONTROL
             >;
         };
 
