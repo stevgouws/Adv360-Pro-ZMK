@@ -86,6 +86,16 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
+
+        mt_150ms: mod_tap_150ms {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_TAP_150ms";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <150>;
+        };
     };
 
     macros {
