@@ -198,6 +198,11 @@
             bindings = <&sl 7>;
             key-positions = <26 25>;
         };
+
+        CV {
+            bindings = <&tog 8>;
+            key-positions = <49 50>;
+        };
     };
 
     keymap {
@@ -285,11 +290,11 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans           &msc SCRL_DOWN  &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_LEFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans           &trans          &trans          &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans           &trans          &trans          &trans  &trans                                      &trans  &trans           &trans        &trans          &trans          &trans  &trans
+&trans  &trans  &trans           &msc SCRL_DOWN  &trans          &trans  &trans                                      &trans  &trans           &trans        &trans          &trans          &trans  &trans
+&trans  &trans  &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_LEFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_LEFT  &trans  &trans
+&trans  &trans  &trans           &trans          &trans          &trans                  &trans      &trans                  &trans           &trans        &trans          &trans          &trans  &trans
+&trans  &trans  &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans                   &trans        &trans          &trans          &trans  &trans
             >;
         };
     };
