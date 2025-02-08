@@ -204,7 +204,7 @@
             key-positions = <49 50>;
         };
 
-        M, {
+        MComma {
             bindings = <&tog 8>;
             key-positions = <55 56>;
         };
