@@ -191,6 +191,7 @@
             bindings = <&sl 5>;
             key-positions = <32 17>;
             timeout-ms = <20>;
+            layers = <0 2 1 3 4 5 7 6>;
         };
 
         OP {
