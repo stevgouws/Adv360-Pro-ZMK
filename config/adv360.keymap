@@ -200,12 +200,12 @@
         };
 
         CV {
-            bindings = <&mo 8>;
+            bindings = <&tog 8>;
             key-positions = <49 50>;
         };
 
         MComma {
-            bindings = <&tog 8>;
+            bindings = <&mo 8>;
             key-positions = <55 56>;
         };
     };
