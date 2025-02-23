@@ -198,21 +198,6 @@
             bindings = <&sl 7>;
             key-positions = <26 25>;
         };
-
-        CV {
-            bindings = <&tog 8>;
-            key-positions = <49 50>;
-        };
-
-        MComma {
-            bindings = <&mo 8>;
-            key-positions = <55 56>;
-        };
-
-        SDF {
-            bindings = <&tog 8>;
-            key-positions = <30 31 32>;
-        };
     };
 
     keymap {
