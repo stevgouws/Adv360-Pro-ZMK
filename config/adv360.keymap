@@ -207,7 +207,7 @@
 
         CV {
             bindings = <&sl 10>;
-            key-positions = <48 49>;
+            key-positions = <49 50>;
         };
     };
 
