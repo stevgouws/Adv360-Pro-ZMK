@@ -206,7 +206,7 @@
         };
 
         CV {
-            bindings = <&mo 10>;
+            bindings = <&sl 10>;
             key-positions = <49 50>;
         };
     };
