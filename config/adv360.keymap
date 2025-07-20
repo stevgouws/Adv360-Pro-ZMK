@@ -67,7 +67,6 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <200>;
             flavor = "balanced";
-            hold-trigger-on-release;
         };
 
         mt_rt: mod_tap_retro_tap {
