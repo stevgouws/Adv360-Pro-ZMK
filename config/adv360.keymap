@@ -77,7 +77,7 @@
             tapping-term-ms = <400>;
             require-prior-idle-ms = <200>;
             quick-tap-ms = <175>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             hold-trigger-key-positions = <19 29>;    // <---[[the T, A key]]
         };
 
