@@ -77,8 +77,8 @@
             tapping-term-ms = <400>;
             require-prior-idle-ms = <200>;
             quick-tap-ms = <175>;
-            flavor = "tap-preferred";
-            hold-trigger-key-positions = <19 29>;    // <---[[the T, A key]]
+            flavor = "hold-preferred";
+            // hold-trigger-key-positions = <19 29>;    // <---[[the T, A key]]
         };
 
         mt_rt: mod_tap_retro_tap {
