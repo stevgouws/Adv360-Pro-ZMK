@@ -62,7 +62,7 @@
             label = "TAP_DANCE_BACKSPACE_WORD";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
-            bindings = <&kp BACKSPACE, &kp LCMD BACKSPACE>;
+            bindings = <&kp BACKSPACE, &kp LC(BACKSPACE)>;
         };
 
         urob: urob {
