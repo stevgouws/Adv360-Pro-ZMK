@@ -57,6 +57,14 @@
             bindings = <&kp LEFT_SHIFT>, <&caps_word>;
         };
 
+        tap_dance-backspace_word: tap_dance_backspace_word {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_BACKSPACE_WORD";
+            #binding-cells = <0>;
+            tapping-term-ms = <150>;
+            bindings = <&kp BACKSPACE, &kp LCMD BACKSPACE>;
+        };
+
         urob: urob {
             compatible = "zmk,behavior-hold-tap";
             label = "UROB";
