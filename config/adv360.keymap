@@ -57,7 +57,9 @@
             bindings = <&kp LEFT_SHIFT>, <&caps_word>;
         };
 
-        tap_dance-backspace_word: tap_dance_backspace_word {
+        tap_dance-backspace_word:
+
+        tap_dance_backspace_word {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_BACKSPACE_WORD";
             #binding-cells = <0>;
@@ -81,11 +83,13 @@
             compatible = "zmk,behavior-hold-tap";
             label = "POSITIONAL_HOLD_TAP";
             bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <400>;
             require-prior-idle-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "hold-preferred";
+
             // hold-trigger-key-positions = <19 29>;    // <---[[the T, A key]]
         };
 
@@ -117,6 +121,15 @@
 
             #binding-cells = <2>;
             flavor = "hold-preferred";
+            tapping-term-ms = <150>;
+        };
+
+        tap_dance_backspace: tap_dance_backspace {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_BACKSPACE";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp LG(BACKSPACE)>;
+
             tapping-term-ms = <150>;
         };
     };
