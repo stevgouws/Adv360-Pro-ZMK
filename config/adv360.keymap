@@ -118,7 +118,10 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_BACKSPACE";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp LG(BACKSPACE)>;
+            bindings =
+                <&kp BACKSPACE>,
+                <&kp LA(BACKSPACE)>,
+                <&kp LG(BACKSPACE)>;
 
             tapping-term-ms = <150>;
         };
