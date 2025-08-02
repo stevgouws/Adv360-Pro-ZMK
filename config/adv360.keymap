@@ -233,12 +233,6 @@
             require-prior-idle-ms = <125>;
         };
 
-        OP {
-            bindings = <&sl 7>;
-            key-positions = <26 25>;
-            require-prior-idle-ms = <350>;
-        };
-
         CV {
             bindings = <&sl 10>;
             key-positions = <49 50>;
