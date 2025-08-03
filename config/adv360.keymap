@@ -187,14 +187,6 @@
     combos {
         compatible = "zmk,combos";
 
-        ER {
-            bindings = <&mkp MB1>;
-            key-positions = <18 17>;
-            timeout-ms = <20>;
-            layers = <0 1 4>;
-            require-prior-idle-ms = <125>;
-        };
-
         DF {
             bindings = <&kp ESCAPE>;
             key-positions = <32 31>;
