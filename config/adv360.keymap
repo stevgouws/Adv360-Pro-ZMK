@@ -241,16 +241,12 @@
         ER {
             bindings = <&kp LCTRL>;
             key-positions = <17 18>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <125>;
             layers = <0 1 4>;
         };
 
         UI {
             bindings = <&kp LCTRL>;
             key-positions = <23 24>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <125>;
             layers = <0 1 4>;
         };
     };
