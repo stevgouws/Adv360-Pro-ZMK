@@ -242,12 +242,14 @@
             bindings = <&kp LCTRL>;
             key-positions = <17 18>;
             layers = <0 1 4>;
+            require-prior-idle-ms = <125>;
         };
 
         UI {
             bindings = <&kp LCTRL>;
             key-positions = <23 24>;
             layers = <0 1 4>;
+            require-prior-idle-ms = <125>;
         };
     };
 
