@@ -243,6 +243,7 @@
             key-positions = <17 18>;
             layers = <0 1 4>;
             require-prior-idle-ms = <125>;
+            timeout-ms = <20>;
         };
 
         UI {
@@ -250,6 +251,7 @@
             key-positions = <23 24>;
             layers = <0 1 4>;
             require-prior-idle-ms = <125>;
+            timeout-ms = <20>;
         };
     };
 
