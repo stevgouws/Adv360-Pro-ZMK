@@ -267,7 +267,7 @@
         };
 
         Meh+s {
-            bindings = <&none>;
+            bindings = <&kp LS(LA(LC(S)))>;
             key-positions = <66 69>;
             timeout-ms = <20>;
             layers = <0 4>;
